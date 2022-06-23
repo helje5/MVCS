@@ -13,15 +13,16 @@
 		B7D5253E2852536D0018BBAB /* Color.Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D5252B2852536D0018BBAB /* Color.Palette.swift */; };
 		B7D5253F2852536D0018BBAB /* App.Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D5252D2852536D0018BBAB /* App.Store.swift */; };
 		B7D525412852536D0018BBAB /* App.MVCSDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D5252F2852536D0018BBAB /* App.MVCSDemo.swift */; };
-		B7D525422852536D0018BBAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D525302852536D0018BBAB /* ContentView.swift */; };
+		B7D525422852536D0018BBAB /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D525302852536D0018BBAB /* Main.swift */; };
 		B7D525432852536D0018BBAB /* RemoteImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D525322852536D0018BBAB /* RemoteImageView.swift */; };
 		B7D525442852536D0018BBAB /* ImagesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D525332852536D0018BBAB /* ImagesController.swift */; };
 		B7D525452852536D0018BBAB /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D525342852536D0018BBAB /* RemoteImage.swift */; };
 		B7D525472852536D0018BBAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7D525362852536D0018BBAB /* Assets.xcassets */; };
 		B7D525482852536D0018BBAB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7D525382852536D0018BBAB /* Preview Assets.xcassets */; };
-		B7D525492852536D0018BBAB /* FavoritesCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D5253A2852536D0018BBAB /* FavoritesCarouselView.swift */; };
-		B7D5254A2852536D0018BBAB /* RedPandaCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D5253B2852536D0018BBAB /* RedPandaCardView.swift */; };
+		B7D525492852536D0018BBAB /* FavoritesCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D5253A2852536D0018BBAB /* FavoritesCarousel.swift */; };
+		B7D5254A2852536D0018BBAB /* RedPandaCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D5253B2852536D0018BBAB /* RedPandaCard.swift */; };
 		B7D5254B2852536D0018BBAB /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D5253C2852536D0018BBAB /* CarouselView.swift */; };
+		E82BC6A728639CD300227301 /* ViewController in Frameworks */ = {isa = PBXBuildFile; productRef = E82BC6A628639CD300227301 /* ViewController */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,14 +32,14 @@
 		B7D5252B2852536D0018BBAB /* Color.Palette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.Palette.swift; sourceTree = "<group>"; };
 		B7D5252D2852536D0018BBAB /* App.Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = App.Store.swift; sourceTree = "<group>"; };
 		B7D5252F2852536D0018BBAB /* App.MVCSDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = App.MVCSDemo.swift; sourceTree = "<group>"; };
-		B7D525302852536D0018BBAB /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B7D525302852536D0018BBAB /* Main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		B7D525322852536D0018BBAB /* RemoteImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteImageView.swift; sourceTree = "<group>"; };
 		B7D525332852536D0018BBAB /* ImagesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagesController.swift; sourceTree = "<group>"; };
 		B7D525342852536D0018BBAB /* RemoteImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 		B7D525362852536D0018BBAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7D525382852536D0018BBAB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		B7D5253A2852536D0018BBAB /* FavoritesCarouselView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesCarouselView.swift; sourceTree = "<group>"; };
-		B7D5253B2852536D0018BBAB /* RedPandaCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedPandaCardView.swift; sourceTree = "<group>"; };
+		B7D5253A2852536D0018BBAB /* FavoritesCarousel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesCarousel.swift; sourceTree = "<group>"; };
+		B7D5253B2852536D0018BBAB /* RedPandaCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedPandaCard.swift; sourceTree = "<group>"; };
 		B7D5253C2852536D0018BBAB /* CarouselView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -48,6 +49,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B746F7ED2843FE48007FB106 /* Boutique in Frameworks */,
+				E82BC6A728639CD300227301 /* ViewController in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,7 +116,7 @@
 			children = (
 				B7D5252D2852536D0018BBAB /* App.Store.swift */,
 				B7D5252F2852536D0018BBAB /* App.MVCSDemo.swift */,
-				B7D525302852536D0018BBAB /* ContentView.swift */,
+				B7D525302852536D0018BBAB /* Main.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -140,8 +142,8 @@
 		B7D525392852536D0018BBAB /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				B7D5253A2852536D0018BBAB /* FavoritesCarouselView.swift */,
-				B7D5253B2852536D0018BBAB /* RedPandaCardView.swift */,
+				B7D5253A2852536D0018BBAB /* FavoritesCarousel.swift */,
+				B7D5253B2852536D0018BBAB /* RedPandaCard.swift */,
 				B7D5253C2852536D0018BBAB /* CarouselView.swift */,
 			);
 			path = Components;
@@ -165,6 +167,7 @@
 			name = "MVCS-Demo";
 			packageProductDependencies = (
 				B746F7EC2843FE48007FB106 /* Boutique */,
+				E82BC6A628639CD300227301 /* ViewController */,
 			);
 			productName = "MVC-Demo";
 			productReference = B7D0A348283DEF9400FF06D3 /* MVCS Demo.app */;
@@ -196,6 +199,7 @@
 			mainGroup = B7D0A33F283DEF9400FF06D3;
 			packageReferences = (
 				B746F7E82843FCDE007FB106 /* XCRemoteSwiftPackageReference "boutique" */,
+				E82BC6A528639CD300227301 /* XCRemoteSwiftPackageReference "ViewController" */,
 			);
 			productRefGroup = B7D0A349283DEF9400FF06D3 /* Products */;
 			projectDirPath = "";
@@ -224,15 +228,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7D525452852536D0018BBAB /* RemoteImage.swift in Sources */,
-				B7D525492852536D0018BBAB /* FavoritesCarouselView.swift in Sources */,
+				B7D525492852536D0018BBAB /* FavoritesCarousel.swift in Sources */,
 				B7D5253E2852536D0018BBAB /* Color.Palette.swift in Sources */,
 				B7D5253F2852536D0018BBAB /* App.Store.swift in Sources */,
-				B7D525422852536D0018BBAB /* ContentView.swift in Sources */,
+				B7D525422852536D0018BBAB /* Main.swift in Sources */,
 				B7D525442852536D0018BBAB /* ImagesController.swift in Sources */,
 				B7D5254B2852536D0018BBAB /* CarouselView.swift in Sources */,
 				B7D525412852536D0018BBAB /* App.MVCSDemo.swift in Sources */,
 				B7618A5C2852889400E3C6E6 /* ScrollFocusController.swift in Sources */,
-				B7D5254A2852536D0018BBAB /* RedPandaCardView.swift in Sources */,
+				B7D5254A2852536D0018BBAB /* RedPandaCard.swift in Sources */,
 				B7D5253D2852536D0018BBAB /* View+Style.swift in Sources */,
 				B7D525432852536D0018BBAB /* RemoteImageView.swift in Sources */,
 			);
@@ -445,6 +449,14 @@
 				minimumVersion = 1.0.0;
 			};
 		};
+		E82BC6A528639CD300227301 /* XCRemoteSwiftPackageReference "ViewController" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ZeeZide/ViewController.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -452,6 +464,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = B746F7E82843FCDE007FB106 /* XCRemoteSwiftPackageReference "boutique" */;
 			productName = Boutique;
+		};
+		E82BC6A628639CD300227301 /* ViewController */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E82BC6A528639CD300227301 /* XCRemoteSwiftPackageReference "ViewController" */;
+			productName = ViewController;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
