@@ -60,7 +60,7 @@ and
 [ViewController](https://github.com/ZeeZide/ViewController)
 without the specific
 [`Store`](https://github.com/mergesort/Boutique#store),
-they actuall supplement each other quite well!
+they actually supplement each other quite well!
 
 [ViewController](https://github.com/ZeeZide/ViewController)
 exists to structure the `View` and presentation setup 
@@ -154,8 +154,9 @@ class Main: ViewController {
 The main controller has two child view controllers,
 which are added as contained controllers.
 
-Let's have a look at the `FavoritesCarousel`. Before it was a `View`,
-not it is a `ViewController`, which owns the nested View:
+Let's have a look at the 
+[`FavoritesCarousel`](MVCS-Demo/Components/FavoritesCarousel.swift).
+Before it was a `View`, now it is a `ViewController` and a nested `View`:
 ```swift
 class FavoritesCarousel: ViewController {
 
@@ -165,7 +166,7 @@ class FavoritesCarousel: ViewController {
 
   init() {
     ...
-        self.animation = .easeInOut(duration: 0.35)
+    self.animation = .easeInOut(duration: 0.35)
   }
 
   private func removeImage(image: RemoteImage) {
@@ -218,15 +219,16 @@ It sets up the store which auto-persists and auto-restores.
 If any VC or View in the stack modifies the store, the VC will update
 accordingly.
 
-The second thing to note it the `@Published var animation`.
-That was an `@State` of a `View` before. In our VC setup, state generally does
-not belong into View's.
+The second thing to note is the `@Published var animation`.
+That was a `@State` of the `View` before. 
+In our VC setup, state generally does not belong into View's.
 
 Then there comes an `init`, another important part in the VC setup.
 It makes the `task` (aka `onAppear`) modifier superfluous.
 Because ViewController's are setup explicitly and have identity (they are
 objects in the presentation hierarchy), the flow is always clear and 
 initialization can be done when necessary.
+Initialization shouldn't be a side effect.
 
 What follows are the `removeImage` and `clearAllImages` actions that
 are hooked up directly to the `Button`s and modify the store.
@@ -235,10 +237,12 @@ can usually be marked `private`.
 
 And finally the `view` of the `ViewController`.
 Nothing really special about it. 
-The View doesn't need to be done inline. Like its common in UIKit,
+The View doesn't need to be done inline. Like in UIKit,
 more complex Views can be moved outside of the VC class.
 
-The `RedPandaCard` `ViewController` works the same. Feel free to have a look
+The 
+[`RedPandaCard`](MVCS-Demo/Components/RedPandaCard.swift)
+`ViewController` works the same. Feel free to have a look
 in the sample.
 
 
