@@ -105,7 +105,8 @@ Both of which we turn into
 And we add another one, `Main`, which controls the scene view
 (i.e. what has been the `ContentView` before).
 
-The `Main` VC is attached directly in the scene:
+The `Main` VC is 
+[attached directly in the scene](MVCS-Demo/App/App.MVCSDemo.swift):
 ```swift
 @main
 struct MVCSDemoApp: App {
@@ -117,7 +118,8 @@ struct MVCSDemoApp: App {
   }
 }
 ```
-And looks like this:
+And looks like this ([Main.swift](MVCS-Demo/App/Main.swift)):
+:
 ```swift
 class Main: ViewController {
   let carouselFocusController = ScrollFocusController<String>()
