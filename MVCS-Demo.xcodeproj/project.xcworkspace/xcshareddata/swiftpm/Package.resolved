@@ -17,6 +17,15 @@
         "revision" : "5f41343a5bba755fdc5532369494cb9c8c5ac010",
         "version" : "1.0.0"
       }
+    },
+    {
+      "identity" : "viewcontroller",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ZeeZide/ViewController.git",
+      "state" : {
+        "revision" : "3699adc0af6be289a78e56546d1dd41c2194275b",
+        "version" : "0.3.1"
+      }
     }
   ],
   "version" : 2
